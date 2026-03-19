@@ -12,5 +12,5 @@
 
 ## 2주차
 
-- Flutter 설정
-- Flutter 프로젝트 생성 및 구조 파악
+- Flutter 설정.
+- Flutter 프로젝트 생성 및 구조 파악.
