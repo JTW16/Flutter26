@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class DefaultPage extends StatelessWidget {
   const DefaultPage({super.key});
 
