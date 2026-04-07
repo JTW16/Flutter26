@@ -4,6 +4,8 @@ import 'package:example/ui/pages/todo/widget/progress_card.dart';
 import 'package:example/ui/pages/todo/widget/todo_list.dart';
 import 'package:flutter/material.dart';
 
+import 'bottom_navigation/bottom_navigation.dart';
+
 class TodoPage extends StatelessWidget {
   const TodoPage({super.key});
 
@@ -23,6 +25,8 @@ class TodoPage extends StatelessWidget {
               const FilterRow(),
               _buildTodoTitle(),
               const TodoList(),
+              BottomNavigation(),
+              // Custom Bottom Vavigation
             ],
           ),
         ),
