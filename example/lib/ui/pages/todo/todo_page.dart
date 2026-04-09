@@ -26,7 +26,7 @@ class TodoPage extends StatelessWidget {
               _buildTodoTitle(),
               const TodoList(),
               BottomNavigation(),
-              // Custom Bottom Vavigation
+              // Custom Bottom Navigation
             ],
           ),
         ),
