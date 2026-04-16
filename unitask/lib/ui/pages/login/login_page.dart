@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:unitask/app/extensions/sized_box_extension.dart';
+import 'package:unitask/app/extensions/snackbar_extension.dart';
 import 'package:unitask/ui/common/label_text_field.dart';
 import 'package:unitask/ui/common/text_divider.dart';
 
@@ -43,13 +44,16 @@ class _LoginPageState extends State<LoginPage> {
                 label: '비밀번호',
                 hintText: '000000',
                 icon: LucideIcons.lockKeyhole,
+                enableObscure: true,
               ),
 
               //비밀번호 찾기
               Align(
                 alignment: .centerRight,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.showSnackbar('곧 기능을 출시합니다!');
+                  },
                   child: Text('비밀번호를 잊으셨나요?'),
                 ),
               ),

@@ -1,12 +1,12 @@
 import 'package:example/enum/process.dart';
 import 'package:flutter/material.dart';
 
-class NavBotton extends StatelessWidget {
+class NavButton extends StatelessWidget {
   final bool selected;
   final IconData icon;
   final String text;
 
-  const NavBotton({
+  const NavButton({
     super.key,
     this.selected = false,
     required this.icon,

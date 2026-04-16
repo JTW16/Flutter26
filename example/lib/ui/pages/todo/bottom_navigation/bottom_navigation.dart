@@ -1,4 +1,4 @@
-import 'package:example/ui/pages/todo/bottom_navigation/widget/nav_botton.dart';
+import 'package:example/ui/pages/todo/bottom_navigation/widget/nav_button.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigation extends StatefulWidget {
@@ -28,7 +28,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
                 ]
                 .map(
                   (e) => Expanded(
-                    child: NavBotton(
+                    child: NavButton(
                       selected: e.text == '홈',
                       icon: e.icon,
                       text: e.text,
