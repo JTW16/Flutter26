@@ -5,6 +5,10 @@ class AppTheme {
     brightness: .light,
     visualDensity: .adaptivePlatformDensity,
     scaffoldBackgroundColor: Colors.white,
+    appBarTheme: AppBarTheme(
+      backgroundColor: Colors.white,
+      foregroundColor: Colors.black,
+    ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
       foregroundColor: Colors.white,
       backgroundColor: Color(0xFF3B82F6),
@@ -37,6 +41,10 @@ class AppTheme {
     brightness: .dark,
     visualDensity: .adaptivePlatformDensity,
     scaffoldBackgroundColor: Color(0xFF111827),
+    appBarTheme: AppBarTheme(
+      backgroundColor: Color(0xFF111827),
+      foregroundColor: Colors.white,
+    ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
       foregroundColor: Colors.white,
       backgroundColor: Color(0xFF3B82F6),
