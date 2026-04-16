@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:unitask/app/extensions/sized_box_extension.dart';
 import 'package:unitask/ui/common/label_text_field.dart';
+import 'package:unitask/ui/common/text_divider.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -69,15 +70,9 @@ class _LoginPageState extends State<LoginPage> {
 
               20.heightBox,
 
-              //ㅇㅇ
-              Row(
-                spacing: 15,
-                children: [
-                  Expanded(child: Divider()),
-                  Text('또는', style: TextStyle(color: Colors.grey)),
-                  Expanded(child: Divider()),
-                ],
-              ),
+              const TextDivider(text: '또는'),
+
+              20.heightBox,
 
               Row(
                 mainAxisSize: .min,

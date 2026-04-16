@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class TextDivider extends StatelessWidget {
+  final String text;
+
+  const TextDivider({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Row(
+      spacing: 15,
+      children: [
+        Expanded(child: Divider()),
+        Text('또는', style: TextStyle(color: Colors.grey)),
+        Expanded(child: Divider()),
+      ],
+    );
   }
 }
